@@ -1,0 +1,71 @@
+.cta {
+  padding: 4rem 0;
+  background: var(--primary);
+}
+
+.cta-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.cta-text h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+.cta-text p {
+  color: #cbd5e1;
+  font-weight: 500;
+}
+
+.cta-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.cta-button {
+  background: #ffffff;
+  color: var(--primary);
+  padding: 16px 40px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.144);
+  background: white;
+  transform: scale(1.02);
+}
+
+.cta-button:active {
+  opacity: 0.8;
+}
+
+/* Responsive */
+@media (min-width: 1024px) {
+  .cta-container {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .cta-text h2 {
+    font-size: 2.2rem;
+  }
+}

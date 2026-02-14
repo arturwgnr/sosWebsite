@@ -1,0 +1,135 @@
+:root {
+  --primary: #152c4b;
+  --primary-dark: #152c4b;
+}
+
+/* Header Base */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.959);
+  backdrop-filter: blur(4px);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.137);
+}
+
+/* Container */
+.header-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+/* Logo */
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.logo-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent; /* remove fundo azul */
+  /* remove padding */
+}
+
+.logo-image {
+  height: 75px; /* controla tamanho */
+  width: auto;
+  object-fit: contain;
+}
+.logo-text {
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+/* Navigation */
+.header-nav {
+  display: none;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #152c4b;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  text-shadow: 1px 1px 10px #2b568f27;
+  color: #2b548a;
+}
+
+/* Actions */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-cta-button {
+  background-color: #152c4b !important;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: none;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.header-cta-button:hover {
+  background-color: #254979 !important;
+  box-shadow: 1px 1px 10px #346ebb56;
+}
+.header-cta-button:active {
+  opacity: 0.9;
+}
+
+.mobile-menu {
+  background: none;
+  border: none;
+  color: var(--primary);
+  cursor: pointer;
+  display: flex;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .header-nav {
+    display: flex;
+  }
+
+  .cta-button {
+    display: inline-flex;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-container {
+    padding: 0 2rem;
+  }
+}
