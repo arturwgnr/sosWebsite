@@ -59,7 +59,8 @@ export default function Hero() {
             </button>
           </div>
           <div className="hero-trust">
-            Atendimento em até 24h • Técnicos Especializados • Peças Originais
+            Atendimento em até 2 minutos • Técnicos Especializados • Peças
+            Originais
           </div>
         </div>
       </div>
