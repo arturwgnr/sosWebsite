@@ -113,6 +113,10 @@
   display: flex;
 }
 
+.header-cta-button {
+  display: none; /* default mobile */
+}
+
 /* Responsive */
 @media (min-width: 768px) {
   .header-nav {
