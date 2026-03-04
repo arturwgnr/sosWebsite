@@ -26,7 +26,7 @@ export default function Hero() {
           </h1>
 
           <p className="hero-description">
-            Conserto rápido de empilhadeiras e paleteiras. Sua operação não pode
+            Conserto rápido de Empilhadeiras e Paleteiras. Sua operação não pode
             esperar.
           </p>
 
@@ -59,8 +59,7 @@ export default function Hero() {
             </button>
           </div>
           <div className="hero-trust">
-            Atendimento em até 24h • Técnicos Especializados • Peças
-            Originais
+            Atendimento em até 24h • Técnicos Especializados • Peças Originais
           </div>
         </div>
       </div>

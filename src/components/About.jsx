@@ -18,7 +18,7 @@ export default function About() {
             />
 
             <div className="about-badge">
-              <p className="badge-number">10+</p>
+              <p className="badge-number">30+</p>
               <p className="badge-text">Anos de Excelência Técnica</p>
             </div>
           </div>
@@ -30,12 +30,12 @@ export default function About() {
             </h2>
 
             <p className="about-description">
-              Há mais de 10 anos, a SOS Transpaletes é referência em manutenção,
-              venda e locação de equipamentos de movimentação de carga em Minas
-              Gerais. Sabemos que uma paleteira parada não é apenas um reparo, é
-              um gargalo que afeta toda a sua operação. Por isso, unimos
-              engenharia de precisão, logística ágil e uma equipe altamente
-              capacitada para manter seu negócio sempre em movimento.
+              Há mais de 3 décadas, a SOS Transpaletes é referência em
+              manutenção, venda e locação de equipamentos de movimentação de
+              carga em Minas Gerais. Sabemos que uma paleteira parada não é
+              apenas um reparo, é um gargalo que afeta toda a sua operação. Por
+              isso, unimos engenharia de precisão, logística ágil e uma equipe
+              altamente capacitada para manter seu negócio sempre em movimento.
             </p>
 
             <ul className="about-list">
