@@ -20,7 +20,7 @@ export default function Services() {
             <h3>Reparo de Empilhadeiras</h3>
             <p>
               Diagnóstico completo e revisão mecânica para unidades elétricas e
-              a diesel.
+              a GLP.
             </p>
           </div>
 
@@ -31,7 +31,7 @@ export default function Services() {
               </span>
             </div>
             <h3>Paleteiras</h3>
-            <p>Reforma, Pintura, Lubrificação e Mecânica nos equipamentos</p>
+            <p>Reforma, Pintura, Lubrificação e Manutenção nos equipamentos</p>
           </div>
 
           <div className="service-card">
@@ -62,8 +62,8 @@ export default function Services() {
             </div>
             <h3>Locação</h3>
             <p>
-              Locação de maquinário e equipamentos, garantindo segurança e
-              continuidade operacional.
+              Locação de Empilhadeiras e Paleteiras, garantindo continuidade
+              operacional.
             </p>
           </div>
         </div>

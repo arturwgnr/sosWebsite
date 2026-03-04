@@ -51,12 +51,17 @@ export default function About() {
 
               <li>
                 <span className="material-symbols-outlined">check_circle</span>
-                Locação de Maquinário e Equipamentos
+                Locação de Empilhadeira e Paleteiras
               </li>
 
               <li>
                 <span className="material-symbols-outlined">check_circle</span>
-                Venda de Empilhadeiras novas da marca UN Forklift
+                Venda de Empilhadeiras novas da marca UN Forklift e Paletrans
+              </li>
+
+              <li>
+                <span className="material-symbols-outlined">check_circle</span>
+                Especialistas em equipamentos Paletrans
               </li>
             </ul>
 
