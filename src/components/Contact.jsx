@@ -53,8 +53,9 @@ ${formData.message}
                   <span className="material-symbols-outlined">call</span>
                 </div>
                 <div>
-                  <p className="info-label">Telefone Oficial</p>
-                  <p className="info-highlight">+55 31 2559-3533</p>
+                  <p className="info-label">Telefones Oficiais</p>
+                  <p className="info-highlight">31 9936-3464</p>
+                  <p className="info-highlight">31 2559-3533</p>
                 </div>
               </div>
 
@@ -65,7 +66,7 @@ ${formData.message}
                 <div>
                   <p className="info-label">Endereço </p>
                   <p className="info-text">
-                    CR. Sinval Alves da Cunha, 126 - Jardim Bandeirantes,
+                    Rua Sinval Alves da Cunha, 126 - Jardim Bandeirantes,
                     Contagem - MG, 32371-330
                   </p>
                 </div>
