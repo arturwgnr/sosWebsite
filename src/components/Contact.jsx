@@ -54,7 +54,7 @@ ${formData.message}
                 </div>
                 <div>
                   <p className="info-label">Telefones Oficiais</p>
-                  <p className="info-highlight">31 9936-3464</p>
+                  <p className="info-highlight">31 9340-0419</p>
                   <p className="info-highlight">31 2559-3533</p>
                 </div>
               </div>
