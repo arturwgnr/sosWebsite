@@ -1,7 +1,18 @@
+import { useState } from "react";
 import "../styles/Header.css";
 import sos from "../assets/images/sos_logo_png.png";
 
+function scrollToContact() {
+  document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+}
+
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  function closeMenu() {
+    setMenuOpen(false);
+  }
+
   return (
     <header className="header">
       <div className="header-container">
@@ -33,19 +44,54 @@ export default function Header() {
           <div className="header-actions">
             <button
               className="header-cta-button"
-              onClick={() =>
-                document
-                  .getElementById("contact")
-                  .scrollIntoView({ behavior: "smooth" })
-              }
+              onClick={scrollToContact}
             >
               Solicitar Serviço
             </button>
-            <button className="mobile-menu">
-              <span className="material-symbols-outlined">menu</span>
+            <button
+              type="button"
+              className="mobile-menu"
+              onClick={() => setMenuOpen((o) => !o)}
+              aria-label={menuOpen ? "Fechar menu" : "Abrir menu"}
+              aria-expanded={menuOpen}
+            >
+              <span className="material-symbols-outlined">
+                {menuOpen ? "close" : "menu"}
+              </span>
             </button>
           </div>
         </div>
+      </div>
+
+      <div
+        className={`mobile-menu-overlay ${menuOpen ? "mobile-menu-overlay--open" : ""}`}
+        aria-hidden={!menuOpen}
+        onClick={closeMenu}
+      >
+        <nav className="mobile-nav" onClick={(e) => e.stopPropagation()}>
+          <a href="#" className="mobile-nav-link" onClick={closeMenu}>
+            Home
+          </a>
+          <a href="#services" className="mobile-nav-link" onClick={closeMenu}>
+            Serviços
+          </a>
+          <a href="#about" className="mobile-nav-link" onClick={closeMenu}>
+            Sobre
+          </a>
+          <a href="#contact" className="mobile-nav-link" onClick={closeMenu}>
+            Contato
+          </a>
+          <button
+            type="button"
+            className="mobile-nav-cta"
+            onClick={() => {
+              closeMenu();
+              scrollToContact();
+            }}
+          >
+            Solicitar Serviço
+          </button>
+        </nav>
       </div>
     </header>
   );
