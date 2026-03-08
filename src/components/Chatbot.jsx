@@ -27,7 +27,7 @@ const SERVICE_RESPONSES = {
     text: "Para **Emergência** temos intervenção no local em até 4 horas (clientes prioritários). Abra o WhatsApp para atendimento urgente.",
     action: "whatsapp",
     label: "Emergência",
-    whatsappMessage: "Olá! Preciso de *atendimento de emergência* – equipamento parado. (contato pelo site)",
+    whatsappMessage: "Olá! Preciso de *atendimento de emergência* – equipamento parado. (contato pelo website)",
   },
   locacao: {
     text: "Oferecemos **Locação** de empilhadeiras e paleteiras. Abra o WhatsApp para orçamento ou veja a seção de serviços na página.",
