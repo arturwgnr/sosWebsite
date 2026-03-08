@@ -172,6 +172,25 @@
   color: #fff;
 }
 
+.chatbot-action-btn--whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(37, 211, 102, 0.12);
+  border-color: #25d366;
+  color: #25d366;
+}
+
+.chatbot-action-btn--whatsapp:hover {
+  background: #25d366;
+  border-color: #25d366;
+  color: #fff;
+}
+
+.chatbot-action-btn--whatsapp .material-symbols-outlined {
+  font-size: 1rem;
+}
+
 /* Animação de digitando */
 .chatbot-typing-bubble {
   display: flex;
