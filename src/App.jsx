@@ -8,6 +8,7 @@ import WhyChooseUs from "./components/WhyChooseUs";
 import CTA from "./components/CTA";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Chatbot from "./components/Chatbot";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Contact />
         <Footer />
       </main>
+      <Chatbot />
     </>
   );
 }
